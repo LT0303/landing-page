@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 325px;
 }
 
 .header-text {
@@ -20,16 +21,14 @@ body {
     font-size: 24px;
     font-weight: 900;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .header-links {
     margin: 16px;
     display: flex;
     gap: 36px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
 .hero {
@@ -42,9 +41,12 @@ body {
 
 .hero-text {
     width: 450px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -68,6 +70,7 @@ body {
 .image-placeholder {
     min-width: 500px;
     min-height: 250px;
+    padding: 16px;
     background-color: gray;
     color: #E5E7EB;
     display: flex;
