@@ -5,9 +5,11 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 12px;
+    padding: 12px 0px 12px 0px;
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-text {
@@ -15,7 +17,6 @@ body {
     font-size: 24px;
     font-weight: 900;
     display: flex;
-    margin-right: auto;
     margin-left: auto;
 }
 
@@ -35,12 +36,13 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding: 36px;
+    padding: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    gap: 100px;
 }
 
 .hero-text {
@@ -64,8 +66,8 @@ body {
 }
 
 .image-placeholder {
-    min-height: 200px;
-    min-width: 500px;
+    height: 200px;
+    width: 500px;
     padding: 36px;
     background-color: gray;
     color: #E5E7EB;
