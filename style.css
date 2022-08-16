@@ -85,17 +85,27 @@ body {
 }
 
 .info {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .info-header {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quotes {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote-text {
@@ -113,6 +123,9 @@ body {
     color: #F9FAF8;
     border-radius: 6px;
     border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .action-header {
