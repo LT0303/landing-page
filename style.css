@@ -12,7 +12,7 @@ body {
 .header-text {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -28,10 +28,22 @@ body {
 
 .links {
     text-decoration: none;
-    color: #E5E7EB
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
-.hero{
+.hero {
     background-color: #1F2937;
     display: flex;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
