@@ -54,6 +54,16 @@ body {
     color: #E5E7EB;
 }
 
+.info {
+
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 
 button {
     background-color: #2883F6;
