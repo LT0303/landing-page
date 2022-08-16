@@ -9,9 +9,12 @@ body {
 .header {
     height: 72px;
     background-color: #1F2937;
+    padding-top: 16px;
+    padding-bottom: 16px;
     padding-left: 36px;
     padding-right: 36px;
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
     gap: 325px;
@@ -51,8 +54,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .hero-main-text {
@@ -80,8 +82,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .info {
@@ -130,8 +131,9 @@ body {
     text-align: center;
 
 }
-.quotes {
+.quotes-section {
     background-color: #E5E7EB;
+    padding: 36px;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -139,14 +141,35 @@ body {
     justify-content: center;
 }
 
-.quote-text {
+.quote{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.quoted-text {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .quote-source {
+    font-size: 24px;
     font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-section
+{
+    padding: 36px;
+    display: flex;
+    flex: 1;
 }
 
 .call-to-action {
@@ -155,11 +178,13 @@ body {
     width: fit-content;
     border-radius: 6px;
     border-style: none;
+    padding: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-self: center;
     align-self: center;
+    margin: auto;
 }
 
 .action-header {
@@ -188,7 +213,7 @@ button {
     color: #F9FAF8;
     height: fit-content;
     width: max-content;
-    padding: 8px 16px 8px 16px;
+    padding: 8px 24px 8px 24px;
     text-decoration: none;
     border-color: #F9FAF8;
     border-radius: 6px;
