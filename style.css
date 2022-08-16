@@ -35,10 +35,18 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .hero-text {
-
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-main-text {
@@ -54,14 +62,19 @@ body {
 
 .hero-text button {
     border-style: none;
+    margin-top: 8px;
 }
 
 .image-placeholder {
+    min-width: 500px;
+    min-height: 250px;
     background-color: gray;
     color: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info {
@@ -114,6 +127,7 @@ a {
 button {
     background-color: #2883F6;
     color: #F9FAF8;
+    width: fit-content;
     padding: 8px 16px 8px 16px;
     text-decoration: none;
     border-color: #F9FAF8;
