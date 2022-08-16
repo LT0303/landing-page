@@ -5,11 +5,10 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 12px 0px 12px 0px;
+    padding: 36px;
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    gap: 50px;
 }
 
 .header-text {
@@ -18,14 +17,14 @@ body {
     font-weight: 900;
     display: flex;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .header-links {
     display: flex;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: 0;
     gap: 30px;
-    
 }
 
 .links {
@@ -40,8 +39,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     gap: 100px;
 }
 
@@ -51,6 +49,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: auto;
 }
 
 .hero-main-text {
@@ -74,6 +73,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: auto;
 }
 
 
@@ -85,4 +85,5 @@ button {
     border-radius: 6px;
     border-style: none;
     font-weight: bold;
+    margin-top: 16px;
 }
