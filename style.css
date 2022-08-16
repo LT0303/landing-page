@@ -30,3 +30,8 @@ body {
     text-decoration: none;
     color: #E5E7EB
 }
+
+.hero{
+    background-color: #1F2937;
+    display: flex;
+}
