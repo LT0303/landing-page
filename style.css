@@ -35,14 +35,20 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding: 30px;
+    padding: 36px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-text {
+    padding: 36px;
+    width: 400px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .hero-main-text {
@@ -52,26 +58,29 @@ body {
 }
 
 .hero-secondary-text {
+    width: 500px;
     color: #E5E7EB;
     font-size: 18px;
 }
 
 .image-placeholder {
-    height: 300px;
-    width: 500px;
+    min-height: 200px;
+    min-width: 500px;
+    padding: 36px;
     background-color: gray;
     color: #E5E7EB;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: center;
     align-items: center;
 }
 
+
 button {
     background-color: #2883F6;
     color: #F9FAF8;
+    padding: 8px 16px 8px 16px;
     text-decoration: none;
     border-radius: 6px;
     border-style: none;
+    font-weight: bold;
 }
