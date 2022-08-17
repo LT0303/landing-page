@@ -12,6 +12,7 @@ body {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index: -1000;
 }
 
 .header {
@@ -223,6 +224,7 @@ body {
     color: #E5E7EB;
     margin-top: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
